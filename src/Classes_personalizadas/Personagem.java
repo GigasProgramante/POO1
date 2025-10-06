@@ -29,7 +29,7 @@ public class Personagem {
         this.vida -= valor;
         if (this.vida <= 0) {
             this.vivo = false;
-            System.out.println("----- " + this.nome + "Morreu! -----\n");
+            System.out.println("\n----- " + this.nome + " Morreu! -----");
         }
     }
 
@@ -51,6 +51,6 @@ public class Personagem {
     }
 
     public void exibirInfo() {
-        System.out.println("\nNome: " + this.nome + "\nVida; " + this.vida + "\nVigor: " + this.vigor + "\nPoções: " + this.pocoes + "\nDefesa: " + this.defesa + "\nDano: " + this.defesa);
+        System.out.println("\nNome: " + this.nome + "\nVida: " + this.vida + "\nVigor: " + this.vigor + "\nPoções: " + this.pocoes + "\nDefesa: " + this.defesa + "\nDano: " + this.defesa);
     }
 }

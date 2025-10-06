@@ -20,6 +20,7 @@ public class Principal {
         inimigo.exibirInfo();
 
         pers.atacar(inimigo);
+        pers.atacar(inimigo);
 
         inimigo.exibirInfo();
 
