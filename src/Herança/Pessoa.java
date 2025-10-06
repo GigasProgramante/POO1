@@ -10,7 +10,7 @@ public class Pessoa {
     }
 
     public void apresentar() {
-        System.out.println("Olá meu nome é "+ this.nome + ", e eu tenho " + this.nome + " anos de idade!");
+        System.out.println("Olá meu nome é "+ this.nome + ", e eu tenho " + this.idade + " anos de idade!");
     }
 
     public String getNome() {
