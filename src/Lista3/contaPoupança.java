@@ -14,6 +14,6 @@ public class contaPoupança extends contaBancaria{
 
     @Override
     public void exibirSaldo() {
-        System.out.println("Saldo: R$" + getSaldo() +"\nTaxa de rendimento: " + this.taxaRendimento + "5");
+        System.out.println("Saldo: R$" + getSaldo() +"\nTaxa de rendimento: " + this.taxaRendimento + "%");
     }
 }
