@@ -9,6 +9,4 @@ public class produtoImportado extends Produto{
         this.taxaImportação = taxaImportação;
         this.paisOrigem = paisOrigem;
     }
-
-
 }
