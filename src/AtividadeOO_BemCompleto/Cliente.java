@@ -9,7 +9,7 @@ public class Cliente extends Pessoa{
     }
 
     public TipoCliente getTipo() {
-        return tipo;
+        return this.tipo;
     }
 
     public double aplicarCashback(double valor) {

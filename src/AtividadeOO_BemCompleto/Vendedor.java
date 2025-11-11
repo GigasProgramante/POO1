@@ -13,6 +13,6 @@ public class Vendedor extends Pessoa{
     }
 
     public double calcularComissao(double valorVenda) {
-
+        return 0.05 * valorVenda;
     }
 }

@@ -41,5 +41,23 @@ public class Pedido {
     public void aplicarDesconto(double percent) {
        this.descontoAcumulado += calcularTotal() * percent/100;
     }
+
+    public void pagar() {
+        this.status = StatusPedido.PAGO;
+
+        if (this.vendedor != null) {
+            System.out.println("\nComissão do vendedor: R$" + this.vendedor.calcularComissao(this.calcularTotal()));
+        }
+    }
+
+    public void cancelar() {
+        if(this.status == StatusPedido.ABERTO) {
+            this.status = StatusPedido.CANCELADO;
+        }
+    }
+
+    public void resumo() {
+
+    }
     
 }
